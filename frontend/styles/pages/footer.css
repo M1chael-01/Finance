@@ -1,0 +1,20 @@
+footer {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+.footer-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 33px;
+    font-size:19px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}

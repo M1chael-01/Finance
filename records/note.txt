@@ -1,0 +1,7 @@
+CS:
+V této složce najdete SQL příkazy exportované z databáze. Slouží pouze jako ukázka a nejsou určeny k použití.
+Pro správné použití prosím využijte SQL dotazy uložené ve složce SQL.
+
+EN:
+This folder contains SQL statements exported from the database. They are provided for demonstration purposes only and should not be used in practice.
+Please use the queries located in the SQL folder instead.

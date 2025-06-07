@@ -1,0 +1,116 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px 0 30px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    padding: 20px;
+}
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 48%;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    /* border-color: #4a90e2; */
+}
+.form-group textarea {
+    height: 120px;
+    resize: none;
+    width:100%;
+}
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+ 
+}
+button:hover {
+    background-color: #357ab7;
+}
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+th, td {
+    font-size: 14px;
+}
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column;
+    }
+    .form-group input, .form-group select {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+section{
+    animation: slideInFromBottom 1s ease-out;
+  }
+
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  

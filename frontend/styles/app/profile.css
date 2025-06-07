@@ -1,0 +1,209 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#page-content{
+    width: 50%;
+    margin:0 auto;
+    display:block;
+}
+h2{
+    text-align:center;
+    font-size:50px;
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.img-radius{
+    width:200px;
+}
+body {
+    background-color: #f4f7fb;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.padding {
+    padding: 2rem !important;
+}
+
+.user-card-full {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.user-profile {
+      background-color: #4a90e2;;
+    border-radius: 10px 0 0 10px;
+    padding: 30px 0;
+  
+}
+
+.user-profile img {
+    border-radius: 50%;
+    width: 220px;
+    height: 200;
+}
+
+.card-block {
+    padding: 1.5rem;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2e3a47;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.f-w-600 {
+    font-weight: 600;
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.social-link li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icon {
+    font-size: 20px;
+    color: #007BFF;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    color: #0056b3;
+}
+
+.social-link li a {
+    text-decoration: none;
+}
+
+/* Form field styles */
+.form-control {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e4e2e2;
+    outline: none;
+    width: 500px;
+
+}
+
+.text-center{
+    display: flex;
+    gap: 10px;
+    /* flex-flow: wrap; */
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin: 0 0 12px;
+}
+
+/* Save button */
+.btn-save-changes,.delete {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+   position: relative;
+   bottom: 40px;
+   left: 30px;
+   width: 250px;
+   margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+.delete{
+   background: red;
+}
+
+.btn-save-changes:hover {
+    background-color: #3b8ce9;
+}
+
+/* Adjusting width of the card */
+.col-sm-8 {
+    max-width: 50%;  /* Reduced width to half */
+}
+
+
+#h6{
+    text-decoration: none;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+section{
+    animation: slideInFromBottom 1s ease-out;
+    margin-top: 8vh;
+  }
+
+
+  @media(max-width:1800px) {
+    #page-content {
+        width: 78%;
+        margin: 0 auto;
+        display: block;
+    }
+  }
+  
+  @media(max-width:1200px) {
+    #page-content {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+  }
+
+    
+  @media(max-width:750px) {
+    #page-content {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    input{
+        width: 100%;
+    }
+  }
+  
+  /* Slide In Animation from Left for .faq */
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(50%);
+      /* opacity: 0; */
+    }
+    100% {
+      transform: translateY(0);
+      /* opacity: 1; */
+    }
+  }
+  
+ 

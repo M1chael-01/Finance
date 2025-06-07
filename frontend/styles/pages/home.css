@@ -1,0 +1,99 @@
+.hero {
+    /* min-height: 100vhs; */
+    /* height: 95vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 35vh;
+    color: #333;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+.hero h1 {
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    opacity: 0;
+    animation: fadeInUp 1.5s 0.5s forwards;
+}
+
+.hero p {
+    font-size: 1.6em;
+    margin-bottom: 25px;
+    line-height: 55px;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeInUp 1.5s 1s forwards;
+}
+
+.cta-buttons .btn {
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px 100px;
+    margin: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    opacity: 0;
+    animation: fadeInUp 1.5s 1.5s forwards;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #357abd;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.hero .cta-buttons .btn:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.hero .cta-buttons .btn:nth-child(2) {
+    animation-delay: 0.7s;
+}
+
+
+@media(max-width:1100px) {
+    .hero p{
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 40px;
+        line-height: 32px;
+    }
+}
+
+@media(max-width:685px) {
+    .cta-buttons .btn{
+       display: block;
+    }
+}
+
+@media(max-width:630px) {
+    .hero h1 {
+        font-size: 3.9em;
+        width: 100%;
+    }
+}
