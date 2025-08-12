@@ -1,3 +1,8 @@
+
+<img width="1920" height="876" alt="finance-aplikace" src="https://github.com/user-attachments/assets/7e2b845d-cf5e-4113-8919-d4b97a219b86" />
+
+
+
 # README - Nastavení finanční aplikace --- verse CS 
 
 Tento návod Vám poskytne podrobné pokyny, jak nastavit a spustit webový projekt na Vašem počítači pomocí XAMPP. Kromě toho se dozvíte, jak importovat potřebné databázové SQL skripty, abyste mohli aplikaci plně využívat. Po úspěšném nastavení budete mít přístup k plně funkční aplikaci, která slouží k efektivní správě osobních či firemních finančních údajů, včetně sledování příjmů, výdajů a generování různých finančních přehledů.
